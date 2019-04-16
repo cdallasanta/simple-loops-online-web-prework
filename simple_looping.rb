@@ -12,7 +12,9 @@ def loop_iterator(number_of_times)
   counter = 0
   loop do
     puts phrase
+    puts counter
     counter += 1
+    puts counter
     if counter = number_of_times
       break
     end
